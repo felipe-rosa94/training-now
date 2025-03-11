@@ -1,0 +1,44 @@
+@import "../../metrics.module";
+
+.home {
+  display: flex;
+  flex-direction: column;
+
+  .app-bar-home {
+
+    .box-tabs {
+      display: flex;
+      justify-content: center;
+    }
+
+    .cont-training {
+      .label {
+        color: $secundaryColor;
+      }
+    }
+  }
+
+  .box-footer {
+    display: flex;
+    width: 100%;
+    left: 20px;
+    bottom: 10px;
+    position: fixed;
+
+    .label {
+      color: $secundaryColor;
+    }
+  }
+}
+
+.menu-item {
+  padding: 0.5px;
+
+  .div-icon {
+
+  }
+
+  .label {
+    color: #242424;
+  }
+}
