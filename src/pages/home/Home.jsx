@@ -129,7 +129,7 @@ const Home = () => {
             importTraining(e.target.result)
         }
         reader.readAsText(file)
-        console.log('teste')
+        console.log('teste 1')
     }
     const importTraining = value => {
         removeLocal('savedTrainings')
